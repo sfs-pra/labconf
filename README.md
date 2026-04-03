@@ -1,15 +1,22 @@
 # Labconf
 
-GTK3 приложение для настройки тем и параметров labwc (аналог obconf для Openbox).
+GTK3 application for configuring themes and parameters for labwc (obconf-like for Openbox).
 
-## Возможности
+[![Build with Meson](https://github.com/sfs-pra/labconf/actions/workflows/ci.yml/badge.svg)](https://github.com/sfs-pra/labconf/actions)
 
-- Вкладки для темы, внешнего вида, фокуса, окон, мыши, рабочих столов, полей, OSD и environment-переменных.
-- Live-preview изменений (`Preview`) с `labwc -r`.
-- Безопасный откат после предпросмотра через `Cancel`.
-- Проверка совместимости конфига через CLI: `labconf -t`.
+## Screenshots
 
-## Зависимости
+![Main window](screenshots/main.png)
+![Settings](screenshots/settings.png)
+
+## Features
+
+- Tabs for: Theme, Appearance, Focus, Windows, Mouse, Desktop, Margins, OSD, and Environment variables
+- Live-preview changes (`Preview`) with `labwc -r`
+- Safe rollback after preview via `Cancel`
+- Config compatibility check via CLI: `labconf -t`
+
+## Dependencies
 
 - vala >= 0.56
 - gtk3 >= 3.22
@@ -17,94 +24,84 @@ GTK3 приложение для настройки тем и параметро
 - meson
 - ninja
 
-## Установка зависимостей (Arch Linux)
+## Install dependencies (Arch Linux)
 
 ```bash
 sudo pacman -S vala gtk3 libxml2 meson ninja
 ```
 
-## Сборка и установка
+## Build and install
 
 ```bash
-cd /home/ai/labconf-qwen
-meson setup build --prefix=/home/ai/.local
+cd /path/to/labconf
+meson setup build --prefix=/usr
 ninja -C build
-ninja -C build install
+sudo ninja -C build install
 ```
 
-## Запуск
+## Run
 
 ```bash
-~/.local/bin/labconf
+labconf
 ```
 
-Или через меню приложений: "Labconf"
+Or via application menu: "Labconf"
 
-## Проверка конфигурации
+## Config check
 
-- `labconf -t` — проверяет текущий `rc.xml` на пригодность для labconf и завершает работу.
-- `labconf -t -c ~/.config/labwc/rc.xml` — проверка явного файла.
-- Формат результата: `PASS` / `WARN` / `FAIL`.
+- `labconf -t` — checks current `rc.xml` for labconf compatibility and exits
+- `labconf -t -c ~/.config/labwc/rc.xml` — check specific file
+- Result format: `PASS` / `WARN` / `FAIL`
 
-## Тесты
+## Tests
 
-- `tests/run-config-tests.sh` компилирует и запускает:
-  - matrix-тест `Config`,
-  - smoke-набор fixture для `Config`,
-  - unit-тест логики layout migration,
-  - unit-тест логики `EnvironmentConfig` (CSV normalize + unmanaged merge).
-- Тест выполняется в изолированном окружении (`/tmp/labconf-config-matrix-home`) и использует fixture `rc.xml`.
-- Реальный `~/.config/labwc/rc.xml` тестом не изменяется и не используется напрямую.
-- Для проверки конкретного реального файла используйте `labconf -t -c <path-to-rc.xml>`.
+```bash
+tests/run-config-tests.sh
+```
 
-## Preview state machine
-
-- `clean`: изменений нет, `Preview` неактивен.
-- `changed`: есть несохраненные изменения, `Preview` активен.
-- `preview_active`: preview применен и новых изменений нет.
-- `preview_outdated`: preview применен, затем внесены новые изменения.
-- Переходы:
-  - `changed -> preview_active`: нажать `Preview`.
-  - `preview_active -> preview_outdated`: изменить любое поле.
-  - `preview_* -> clean`: `Cancel` (откат к исходному состоянию без закрытия).
-  - `preview_* -> exit`: `OK` (сохранение и выход).
-
-## Структура проекта
+## Project structure
 
 ```
 labconf/
 ├── meson.build
 ├── src/
-│   ├── main.vala          # Главное окно, вкладки
-│   ├── config.vala        # Чтение/запись rc.xml
-│   ├── backup.vala        # Резервное копирование
-│   ├── themes.vala        # Сканирование тем
-│   └── fonts.vala         # Сканирование шрифтов
+│   ├── main.vala          # Main window, tabs
+│   ├── config.vala        # Read/write rc.xml
+│   ├── backup.vala        # Backup
+│   ├── themes.vala        # Theme scanning
+│   └── fonts.vala         # Font scanning
 ├── data/
 │   └── labconf.desktop
+├── screenshots/
+│   ├── main.png
+│   └── settings.png
 └── README.md
 ```
 
-## Конфигурационные файлы
+## Config files
 
-- `~/.config/labwc/rc.xml` - основная конфигурация labwc
-- `~/.config/gtk-3.0/settings.ini` - GTK3 тема
+- `~/.config/labwc/rc.xml` - main labwc configuration
+- `~/.config/gtk-3.0/settings.ini` - GTK3 theme
 
-## Настройки по умолчанию
+## Default settings
 
-| Параметр | Значение |
-|---|---|
+| Parameter | Value |
+|-----------|-------|
 | Placement Policy | Cascade |
 | Resize Popup | Never |
 | WindowSwitcher OSD Style | thumbnail |
 | Theme | Greybird |
 | Font | DejaVu Sans 10 |
 
-## Примечания
+## Notes
 
-- `Cancel` после `Preview` откатывает `rc.xml` и `environment` к исходному состоянию.
-- Для применения настроек используется `labwc -r`.
+- `Cancel` after `Preview` rolls back `rc.xml` and `environment` to original state
+- Use `labwc -r` to apply settings
 
-## Лицензия
+## License
 
 GPL-3.0+
+
+---
+
+[Russian version](README.ru.md)
