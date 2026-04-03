@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Labconf
+Name[ru]=Labconf
+Comment=GTK3 configurator for labwc (obconf-like)
+Comment[ru]=GTK3 конфигуратор labwc (аналог obconf)
+Exec=labconf
+Icon=labwc
+Terminal=false
+Type=Application
+Categories=Settings;DesktopSettings;GTK;
+Keywords=theme;labwc;openbox;gtk;config;

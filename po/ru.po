@@ -1,0 +1,686 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: labconf 1.0.0\n"
+"POT-Creation-Date: 2026-03-27 17:35+0000\n"
+"PO-Revision-Date: 2026-03-27 17:35+0000\n"
+"Last-Translator: labconf contributors\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Labwc Configuration Manager"
+msgstr "Менеджер конфигурации Labwc"
+
+msgid "Theme"
+msgstr "Тема"
+
+msgid "Appearance"
+msgstr "Внешний вид"
+
+msgid "Windows"
+msgstr "Окна"
+
+msgid "Move & Resize"
+msgstr "Перемещение и размер"
+
+msgid "Mouse"
+msgstr "Мышь"
+
+msgid "Desktops"
+msgstr "Рабочие столы"
+
+msgid "Margins"
+msgstr "Поля"
+
+msgid "On-screen display"
+msgstr "Экранное отображение"
+
+msgid "Current theme"
+msgstr "Текущая тема"
+
+msgid "Select a theme from the list below."
+msgstr "Выберите тему из списка ниже."
+
+msgid "Selected theme is applied temporarily. Press OK to keep changes."
+msgstr "Выбранная тема применяется временно. Нажмите OK, чтобы сохранить изменения."
+
+msgid "Configure window decorations and fonts."
+msgstr "Настройка оформления окон и шрифтов."
+
+msgid "Corner radius:"
+msgstr "Радиус углов:"
+
+msgid "Keep border when maximized"
+msgstr "Сохранять рамку при разворачивании"
+
+msgid "Show titlebar when maximized"
+msgstr "Показывать заголовок при разворачивании"
+
+msgid "Title layout:"
+msgstr "Расположение кнопок заголовка:"
+
+msgid "Drop shadows"
+msgstr "Тени окон"
+
+msgid "Drop shadows on tiled windows"
+msgstr "Тени для тайловых окон"
+
+msgid "Fonts"
+msgstr "Шрифты"
+
+msgid "Focus"
+msgstr "Фокус"
+
+msgid "Configure how windows receive and raise focus."
+msgstr "Настройка получения фокуса и подъёма окон."
+
+msgid "Window placement"
+msgstr "Размещение окон"
+
+msgid "Configure placement and resize behavior."
+msgstr "Настройка размещения и изменения размеров окон."
+
+msgid "Placement policy:"
+msgstr "Политика размещения:"
+
+msgid "Placement monitor:"
+msgstr "Монитор размещения:"
+
+msgid "Cascade offset X:"
+msgstr "Смещение каскада X:"
+
+msgid "Cascade offset Y:"
+msgstr "Смещение каскада Y:"
+
+msgid "Resize"
+msgstr "Изменение размера"
+
+msgid "Resize popup:"
+msgstr "Всплывающее окно размера:"
+
+msgid "Draw window contents while resizing"
+msgstr "Показывать содержимое окна при изменении размера"
+
+msgid "Corner range:"
+msgstr "Диапазон углов:"
+
+msgid "Minimum area:"
+msgstr "Минимальная площадь:"
+
+msgid "Show notification when switching desktops"
+msgstr "Показывать уведомление при переключении рабочих столов"
+
+msgid "Notification time (ms):"
+msgstr "Время уведомления (мс):"
+
+msgid "Number of desktops:"
+msgstr "Количество рабочих столов:"
+
+msgid "Desktop name prefix:"
+msgstr "Префикс имени рабочего стола:"
+
+msgid "Desktop names:"
+msgstr "Имена рабочих столов:"
+
+msgid "Configure window switcher OSD."
+msgstr "Настройка экранного переключателя окон."
+
+msgid "Show OSD"
+msgstr "Показывать OSD"
+
+msgid "OSD style:"
+msgstr "Стиль OSD:"
+
+msgid "OSD output:"
+msgstr "Вывод OSD:"
+
+msgid "Thumbnail label format:"
+msgstr "Формат подписи миниатюры:"
+
+msgid "Common placeholders include %T (title), %a (application id), and %n (window index)."
+msgstr "Обычные подстановки: %T (заголовок), %a (application id), %n (индекс окна)."
+
+msgid "All outputs"
+msgstr "Все экраны"
+
+msgid "Current output"
+msgstr "Текущий экран"
+
+msgid "Active output"
+msgstr "Активный экран"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Restore"
+msgstr "Восстановить"
+
+msgid "Select a theme."
+msgstr "Выберите тему."
+
+msgid "Failed to apply selected theme."
+msgstr "Не удалось применить выбранную тему."
+
+msgid "Active"
+msgstr "Активный"
+
+msgid "Active window:"
+msgstr "Активное окно:"
+
+msgid "All desktops"
+msgstr "Все рабочие столы"
+
+msgid "Always"
+msgstr "Всегда"
+
+msgid "Any"
+msgstr "Любой"
+
+msgid "Apply font to all"
+msgstr "Применить шрифт ко всем"
+
+msgid "Automatic"
+msgstr "Автоматически"
+
+msgid "Available themes"
+msgstr "Доступные темы"
+
+msgid "Bottom:"
+msgstr "Снизу:"
+
+msgid "Cascade"
+msgstr "Каскад"
+
+msgid "Center"
+msgstr "По центру"
+
+msgid "Choose classic list or thumbnail switcher style."
+msgstr "Выберите классический список или режим миниатюр переключателя."
+
+msgid "Choose where the switcher appears: all outputs, current output, or active output."
+msgstr "Выберите, где отображать переключатель: на всех экранах, текущем или активном."
+
+msgid "Classic"
+msgstr "Классический"
+
+msgid "Classic shows a list; Thumbnail shows preview thumbnails."
+msgstr "Классический режим показывает список, а «Миниатюры» — предпросмотр окон."
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Configure desktop count and names."
+msgstr "Настройка количества и имён рабочих столов."
+
+msgid "Controls when resize dimensions are shown in an OSD popup."
+msgstr "Определяет, когда показывать размеры окна во всплывающем OSD при изменении размера."
+
+msgid "Controls where new windows appear: center, automatic, cursor, or cascade."
+msgstr "Определяет размещение новых окон: по центру, автоматически, у курсора или каскадом."
+
+msgid "Corner range"
+msgstr "Диапазон углов"
+
+msgid "Cursor"
+msgstr "Курсор мыши"
+
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+msgid "Desktop name prefix"
+msgstr "Префикс имени рабочего стола"
+
+msgid "Desktop notification time"
+msgstr "Время уведомления о рабочем столе"
+
+msgid "Distance in pixels from a corner that triggers corner-based resize behavior."
+msgstr "Расстояние в пикселях от угла, при котором срабатывает изменение размера из угла."
+
+msgid "Double click time (ms):"
+msgstr "Время двойного щелчка (мс):"
+
+msgid "Duration in milliseconds for the desktop switch popup."
+msgstr "Длительность показа всплывающего уведомления при переключении рабочих столов в миллисекундах."
+
+msgid "Focus delay (ms):"
+msgstr "Задержка фокуса (мс):"
+
+msgid "Focus follows mouse"
+msgstr "Фокус следует за мышью"
+
+msgid "Format string for thumbnail captions. Examples: %T (title), %a (app id), %n (index)."
+msgstr "Формат подписи миниатюр. Примеры: %T (заголовок), %a (id приложения), %n (индекс)."
+
+msgid "Format string for thumbnail labels, for example %T (title)."
+msgstr "Формат подписи миниатюр, например %T (заголовок)."
+
+msgid "Horizontal offset between windows when policy is Cascade."
+msgstr "Горизонтальное смещение между окнами при каскадном размещении."
+
+msgid "How long the desktop-switch popup remains visible in milliseconds."
+msgstr "Как долго показывать всплывающее уведомление о смене рабочего стола (в миллисекундах)."
+
+msgid "Iconify"
+msgstr "Свернуть"
+
+msgid "Inactive window:"
+msgstr "Неактивное окно:"
+
+msgid "Left:"
+msgstr "Слева:"
+
+msgid "Margins define an area near each screen edge where normal windows should not be placed."
+msgstr "Поля определяют область у краёв экрана, где обычные окна не должны размещаться."
+
+msgid "Maximize"
+msgstr "Развернуть"
+
+msgid "Menu header:"
+msgstr "Заголовок меню:"
+
+msgid "Menu item:"
+msgstr "Пункт меню:"
+
+msgid "Minimum area"
+msgstr "Минимальная площадь"
+
+msgid "Never"
+msgstr "Никогда"
+
+msgid "Never: hide dimensions. Always: always show. Nonpixel: show only for non-pixel increments."
+msgstr "Никогда: скрывать размеры. Всегда: показывать всегда. Непиксельно: показывать только для непиксельных шагов."
+
+msgid "Nonpixel"
+msgstr "Непиксельно"
+
+msgid "Number of desktops"
+msgstr "Количество рабочих столов"
+
+msgid "OK saves, Cancel restores"
+msgstr "OK сохраняет, Отмена восстанавливает"
+
+msgid "OSD output"
+msgstr "Вывод OSD"
+
+msgid "OSD style"
+msgstr "Стиль OSD"
+
+msgid "On-screen display:"
+msgstr "Экранное отображение:"
+
+msgid "Pixel range near window corners used for corner resize behavior."
+msgstr "Диапазон в пикселях у углов окна для срабатывания изменения размера из угла."
+
+msgid "Placement monitor"
+msgstr "Монитор размещения"
+
+msgid "Placement policy"
+msgstr "Политика размещения"
+
+msgid "Policy for placing newly opened windows."
+msgstr "Политика размещения для вновь открываемых окон."
+
+msgid "Prefix used for auto-generated desktop names, for example 'Workspace 3'."
+msgstr "Префикс для автоматически создаваемых имён рабочих столов, например «Рабочий стол 3»."
+
+msgid "Prevents resizing windows below this area in square pixels."
+msgstr "Запрещает уменьшать окно ниже этой площади в квадратных пикселях."
+
+msgid "Raise on focus"
+msgstr "Поднимать при фокусе"
+
+msgid "Require cursor movement for focus"
+msgstr "Требовать движения курсора для фокуса"
+
+msgid "Reserved screen edges in pixels"
+msgstr "Зарезервированные края экрана (в пикселях)"
+
+msgid "Resize popup"
+msgstr "Всплывающее окно изменения размера"
+
+msgid "Restore initial theme?"
+msgstr "Восстановить исходную тему?"
+
+msgid "Restore the initial theme from when Labconf was opened."
+msgstr "Восстановить тему, которая была активна при запуске Labconf."
+
+msgid "Right:"
+msgstr "Справа:"
+
+msgid "Select where the window switcher OSD is shown."
+msgstr "Выберите, где показывать OSD переключателя окон."
+
+msgid "Select which output is used for placement decisions."
+msgstr "Выберите экран, используемый для решения о размещении окон."
+
+msgid "Select which output is used when deciding where new windows should appear."
+msgstr "Выберите экран, на котором следует размещать новые окна."
+
+msgid "Set mouse-related timing options."
+msgstr "Настройка параметров времени, связанных с мышью."
+
+msgid "Sets total desktop count. Increasing it appends default names."
+msgstr "Устанавливает общее число рабочих столов. При увеличении добавляются имена по умолчанию."
+
+msgid "Shade"
+msgstr "Свернуть в заголовок"
+
+msgid "Shows an on-screen notification when moving between desktops."
+msgstr "Показывает экранное уведомление при переключении рабочих столов."
+
+msgid "Smallest allowed window area in square pixels."
+msgstr "Минимально допустимая площадь окна в квадратных пикселях."
+
+msgid "Temporarily applied"
+msgstr "Временно применено"
+
+msgid "This closes Labconf and restores the theme active at startup."
+msgstr "Это закроет Labconf и восстановит тему, активную при запуске."
+
+msgid "This is useful for panels and docks. Values are in pixels and applied per output."
+msgstr "Это полезно для панелей и доков. Значения задаются в пикселях и применяются для каждого экрана."
+
+msgid "This is useful for panels. Values are in pixels and applied per output."
+msgstr "Это полезно для панелей. Значения задаются в пикселях и применяются для каждого экрана."
+
+msgid "Top reserved margin in pixels."
+msgstr "Верхнее зарезервированное поле в пикселях."
+
+msgid "Bottom reserved margin in pixels."
+msgstr "Нижнее зарезервированное поле в пикселях."
+
+msgid "Left reserved margin in pixels."
+msgstr "Левое зарезервированное поле в пикселях."
+
+msgid "Right reserved margin in pixels."
+msgstr "Правое зарезервированное поле в пикселях."
+
+msgid "Thumbnail"
+msgstr "Миниатюры"
+
+msgid "Thumbnail label format"
+msgstr "Формат подписи миниатюры"
+
+msgid "Top:"
+msgstr "Сверху:"
+
+msgid "Total number of desktops managed by labwc."
+msgstr "Общее количество рабочих столов, управляемых labwc."
+
+msgid "Used when creating default desktop names after increasing desktop count."
+msgstr "Используется при создании имён по умолчанию после увеличения числа рабочих столов."
+
+msgid "Vertical offset between windows when policy is Cascade."
+msgstr "Вертикальное смещение между окнами при каскадном размещении."
+
+msgid "When disabled, only an outline is shown during resize."
+msgstr "Если отключено, при изменении размера показывается только контур окна."
+
+msgid "Window icon"
+msgstr "Иконка окна"
+
+msgid "Window label"
+msgstr "Метка окна"
+
+msgid "Window switcher"
+msgstr "Переключатель окон"
+
+msgid "Use latin button codes like NIMC. Invalid characters are removed on save."
+msgstr "Используйте латинские коды кнопок, например NIMC. Неверные символы будут удалены при сохранении."
+
+msgid "Apply this font to all places?"
+msgstr "Применить этот шрифт ко всем элементам?"
+
+msgid "Copies the Active window font to Inactive window, Menu header, Menu item, and On-screen display."
+msgstr "Копирует шрифт активного окна в неактивное окно, заголовок меню, пункт меню и экранное отображение."
+
+msgid "Active window font was applied to all places."
+msgstr "Шрифт активного окна применен ко всем элементам."
+
+msgid "Keyboard"
+msgstr "Клавиатура"
+
+msgid "Compatibility"
+msgstr "Совместимость"
+
+msgid "Desktop / Portal"
+msgstr "Рабочий стол / Портал"
+
+msgid "Virtual output"
+msgstr "Виртуальный выход"
+
+msgid "Set XKB layout and options for keyboard switching and behavior."
+msgstr "Настройка раскладки XKB и параметров переключения клавиатуры."
+
+msgid "XKB layout:"
+msgstr "Раскладка XKB:"
+
+msgid "Examples: se or se,us(intl)"
+msgstr "Примеры: se или se,us(intl)"
+
+msgid "XKB options:"
+msgstr "Параметры XKB:"
+
+msgid "Comma-separated options, for example grp:alt_shift_toggle,caps:escape"
+msgstr "Параметры через запятую, например grp:alt_shift_toggle,caps:escape"
+
+msgid "Quick options:"
+msgstr "Быстрые варианты:"
+
+msgid "Use XKB_DEFAULT_OPTIONS when multiple layouts are configured and a toggle shortcut is needed."
+msgstr "Используйте XKB_DEFAULT_OPTIONS, когда настроено несколько раскладок и нужна клавиша переключения."
+
+msgid "Use XKB parameters."
+msgstr "Используйте параметры XKB."
+
+msgid "Use XKB parameters when multiple layouts are configured and a toggle shortcut is needed."
+msgstr "Используйте параметры XKB, когда настроено несколько раскладок и нужна клавиша переключения."
+
+msgid "Configure cursor theme, cursor size, and optional software cursor fallback."
+msgstr "Настройка темы курсора, его размера и программного резервного режима."
+
+msgid "Cursor theme:"
+msgstr "Тема курсора:"
+
+msgid "Cursor size:"
+msgstr "Размер курсора:"
+
+msgid "Cursor size in pixels, for example 24."
+msgstr "Размер курсора в пикселях, например 24."
+
+msgid "Disable hardware cursors (WLR_NO_HARDWARE_CURSORS=1)"
+msgstr "Отключить аппаратные курсоры (WLR_NO_HARDWARE_CURSORS=1)"
+
+msgid "Disable hardware cursors"
+msgstr "Отключить аппаратные курсоры"
+
+msgid "Enable this only if cursors are disappearing or flickering."
+msgstr "Включайте только если курсор исчезает или мерцает."
+
+msgid "Enable this only if cursors are disappearing or flickering. Sets WLR_NO_HARDWARE_CURSORS=1."
+msgstr "Включайте только если курсор исчезает или мерцает. Устанавливает WLR_NO_HARDWARE_CURSORS=1."
+
+msgid "Compatibility variables for Java/AWT behavior under Wayland."
+msgstr "Переменные совместимости для работы Java/AWT в Wayland."
+
+msgid "Set _JAVA_AWT_WM_NONREPARENTING=0"
+msgstr "Установить _JAVA_AWT_WM_NONREPARENTING=0"
+
+msgid "Set Java AWT non-reparenting to 0"
+msgstr "Установить для Java AWT non-reparenting в 0"
+
+msgid "Only set this if you need to override labwc default behavior."
+msgstr "Устанавливайте только если нужно переопределить поведение labwc по умолчанию."
+
+msgid "Desktop integration variables used by xdg-desktop-portal and related tools."
+msgstr "Переменные интеграции рабочего стола для xdg-desktop-portal и связанных инструментов."
+
+msgid "XDG current desktop:"
+msgstr "Текущее окружение XDG:"
+
+msgid "Usually labwc:wlroots. Leave empty to use labwc defaults."
+msgstr "Обычно labwc:wlroots. Оставьте пустым, чтобы использовать значения labwc по умолчанию."
+
+msgid "Create a fallback virtual output when no physical displays are available."
+msgstr "Создает резервный виртуальный выход, когда нет физических дисплеев."
+
+msgid "Fallback output name:"
+msgstr "Имя резервного выхода:"
+
+msgid "Example: NOOP-fallback"
+msgstr "Пример: NOOP-fallback"
+
+msgid "Names starting with NOOP- are useful for remote clients like wayvnc."
+msgstr "Имена, начинающиеся с NOOP-, удобны для удаленных клиентов вроде wayvnc."
+
+msgid "Mouse cursor"
+msgstr "Курсор мыши"
+
+msgid "Preset options:"
+msgstr "Популярные варианты:"
+
+msgid "Select a preset to append it, or type any custom CSV value directly."
+msgstr "Выберите вариант для добавления или введите собственное CSV-значение вручную."
+
+msgid "Configure cursor size and optional software cursor fallback."
+msgstr "Настройка размера курсора и программного резервного режима."
+
+msgid "Custom"
+msgstr "Прочее"
+
+msgid "Custom KEY=VALUE lines for ~/.config/labwc/environment not covered by dedicated tabs."
+msgstr "Произвольные строки KEY=VALUE из ~/.config/labwc/environment, не покрытые отдельными вкладками."
+
+msgid "One assignment per line, for example MOZ_ENABLE_WAYLAND=1. Invalid lines are ignored on save."
+msgstr "Одна переменная на строку, например MOZ_ENABLE_WAYLAND=1. Неверные строки игнорируются при сохранении."
+
+msgid "Force Wayland for Mozilla apps (MOZ_ENABLE_WAYLAND=1)"
+msgstr "Принудительно использовать Wayland для приложений Mozilla (MOZ_ENABLE_WAYLAND=1)"
+
+msgid "Force Wayland for Mozilla apps"
+msgstr "Принудительно использовать Wayland для приложений Mozilla"
+
+msgid "Recommended for Firefox and Thunderbird on Wayland sessions."
+msgstr "Рекомендуется для Firefox и Thunderbird в Wayland-сессии."
+
+msgid "Recommended for Firefox and Thunderbird on Wayland sessions. Sets MOZ_ENABLE_WAYLAND=1."
+msgstr "Рекомендуется для Firefox и Thunderbird в Wayland-сессии. Устанавливает MOZ_ENABLE_WAYLAND=1."
+
+msgid "Usage: labconf [options]"
+msgstr "Использование: labconf [параметры]"
+
+msgid "Enable debug logging to /tmp/labconf-debug.log"
+msgstr "Включить отладочный лог в /tmp/labconf-debug.log"
+
+msgid "Open directly on Keyboard tab"
+msgstr "Открыть сразу вкладку «Клавиатура»"
+
+msgid "Show this help and exit"
+msgstr "Показать справку и выйти"
+
+msgid "Examples:"
+msgstr "Примеры:"
+
+msgid "Use explicit rc.xml path"
+msgstr "Использовать явный путь к rc.xml"
+
+msgid "Validate rc.xml compatibility and exit"
+msgstr "Проверить совместимость rc.xml и выйти"
+
+msgid "Treat warnings as failure in test mode"
+msgstr "Считать предупреждения ошибкой в режиме теста"
+
+msgid "Print test result as JSON"
+msgstr "Вывести результат теста в формате JSON"
+
+msgid "rc.xml is compatible with labconf"
+msgstr "rc.xml совместим с labconf"
+
+msgid "Path"
+msgstr "Путь"
+
+msgid "Checks passed"
+msgstr "Проверок пройдено"
+
+msgid "warnings"
+msgstr "предупреждений"
+
+msgid "errors"
+msgstr "ошибок"
+
+msgid "rc.xml is usable with warnings"
+msgstr "rc.xml пригоден с предупреждениями"
+
+msgid "Warnings"
+msgstr "Предупреждения"
+
+msgid "Result"
+msgstr "Итог"
+
+msgid "configuration can be edited and saved"
+msgstr "конфигурацию можно редактировать и сохранять"
+
+msgid "rc.xml is not compatible with labconf"
+msgstr "rc.xml несовместим с labconf"
+
+msgid "Errors"
+msgstr "Ошибки"
+
+msgid "rc.xml not found"
+msgstr "rc.xml не найден"
+
+msgid "Hint"
+msgstr "Подсказка"
+
+msgid "use -c <path> to specify config file"
+msgstr "используйте -c <path>, чтобы указать файл конфигурации"
+
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgid "Apply current unsaved settings temporarily. Use OK to keep or Cancel to revert."
+msgstr "Временно применить текущие несохраненные параметры. Нажмите OK, чтобы сохранить, или Отмена, чтобы откатить."
+
+msgid "Failed to apply preview changes."
+msgstr "Не удалось применить предпросмотр изменений."
+
+msgid "Failed to write rc.xml and environment for preview."
+msgstr "Не удалось записать rc.xml и environment для предпросмотра."
+
+msgid "Failed to write rc.xml for preview."
+msgstr "Не удалось записать rc.xml для предпросмотра."
+
+msgid "Failed to write environment for preview."
+msgstr "Не удалось записать environment для предпросмотра."
+
+msgid "Preview applied. Press OK to keep changes or Cancel to revert."
+msgstr "Предпросмотр применен. Нажмите OK, чтобы сохранить изменения, или Отмена, чтобы откатить."
+
+msgid "Preview outdated. Press Preview to apply current changes."
+msgstr "Предпросмотр устарел. Нажмите «Предпросмотр», чтобы применить текущие изменения."
+
+msgid "Preview active. Press OK to keep changes or Cancel to revert."
+msgstr "Предпросмотр активен. Нажмите OK, чтобы сохранить изменения, или Отмена, чтобы откатить."
+
+msgid "Preview reverted. Continue editing or press OK to save new changes."
+msgstr "Предпросмотр отменен. Продолжайте редактирование или нажмите OK, чтобы сохранить новые изменения."
+
+msgid "Reset"
+msgstr "Сброс"
+
+msgid "Reset this variable to the loaded value."
+msgstr "Сбросить эту переменную к загруженному значению."
+
+msgid "Preview changes"
+msgstr "Предпросмотр изменений"
+
+msgid "No changes."
+msgstr "Изменений нет."
+
+msgid "unable to compute unified diff"
+msgstr "не удалось построить unified diff"
